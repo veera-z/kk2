@@ -1,0 +1,101 @@
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+body {
+    font-family: 'Rubik', sans-serif;
+  }
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+.logo img{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 50px;
+    
+}
+
+.kk_distribution {
+    /* background-color: blueviolet; */
+}
+
+.sloupky {
+    display: flex;
+    justify-content: center;
+    /* width: 500px; */
+
+}
+
+.film {
+    margin: 0 30px;
+    width: 150px;
+}
+
+.film__image__karel {
+    background-image: url(images/karel.jpg);
+    background-size: cover;
+    /* background-position: center;  */
+    background-repeat: no-repeat; 
+    background-size: contain;
+    width: auto;
+    height: 200px;
+}
+.film__image__dira {
+    background-image: url(images/dira.jpg);
+    background-size: cover;
+    /* background-position: center;  */
+    background-repeat: no-repeat; 
+    background-size: contain;
+    width: auto;
+    height: 200px;
+}
+.film__image__lazne {
+    background-image: url(images/lazne.jpg);
+    background-size: cover;
+    /* background-position: center;  */
+    background-repeat: no-repeat; 
+    background-size: contain;
+    width: auto;
+    height: 200px;
+}
+.film__image__kinska {
+    background-image: url(images/kinska.jpg);
+    background-size: cover;
+    /* background-position: center;  */
+    background-repeat: no-repeat; 
+    background-size: contain;
+    width: auto;
+    height: 200px;
+}
+
+.line {
+    border-bottom: 1px solid black;
+    text-align: center;
+    width: 30px;
+}
+
+.kontakt {
+    margin: 20px;
+}
+
+.line_kontakt {
+    border-bottom: 1px solid black;
+    
+    justify-content: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
