@@ -35,7 +35,7 @@ body {
 
 .film {
     margin: 0 30px;
-    width: 150px;
+    width: 200px;
 }
 
 .film__image__karel {
@@ -45,7 +45,7 @@ body {
     background-repeat: no-repeat; 
     background-size: contain;
     width: auto;
-    height: 200px;
+    height: 300px;
 }
 .film__image__dira {
     background-image: url(images/dira.jpg);
@@ -54,7 +54,7 @@ body {
     background-repeat: no-repeat; 
     background-size: contain;
     width: auto;
-    height: 200px;
+    height: 300px;
 }
 .film__image__lazne {
     background-image: url(images/lazne.jpg);
@@ -63,7 +63,7 @@ body {
     background-repeat: no-repeat; 
     background-size: contain;
     width: auto;
-    height: 200px;
+    height: 300px;
 }
 .film__image__kinska {
     background-image: url(images/kinska.jpg);
@@ -72,7 +72,7 @@ body {
     background-repeat: no-repeat; 
     background-size: contain;
     width: auto;
-    height: 200px;
+    height: 300px;
 }
 
 .line {
@@ -82,12 +82,13 @@ body {
 }
 
 .kontakt {
-    margin: 20px;
+    margin: 40px;
+    text-align: center;
 }
 
 .line_kontakt {
     border-bottom: 1px solid black;
-    
+    margin: 30px 40px;
     justify-content: center;
 }
 
